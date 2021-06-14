@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "teste"
+  description: "teste"
+  annotations:
+    github.com/project-slug: Godoy/teste-back
+    backstage.io/techdocs-ref: url:github.com/Godoy/teste-back
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "Godoy"
